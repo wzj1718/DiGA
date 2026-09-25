@@ -1,0 +1,3 @@
+include: aqua-rat.yaml
+task: agieval_gaokao_history
+dataset_path: !env [DIFA_DATA_ROOT, ./data, "agieval/agieval-gaokao-history"]  # hails/agieval-gaokao-history

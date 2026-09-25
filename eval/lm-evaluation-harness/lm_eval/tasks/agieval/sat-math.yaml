@@ -1,0 +1,3 @@
+include: aqua-rat.yaml
+task: agieval_sat_math
+dataset_path: !env [DIFA_DATA_ROOT, ./data, "agieval/agieval-sat-math"]

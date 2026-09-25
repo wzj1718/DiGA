@@ -1,0 +1,4 @@
+group: pathvqa
+task:
+- pathvqa_test
+- pathvqa_validation

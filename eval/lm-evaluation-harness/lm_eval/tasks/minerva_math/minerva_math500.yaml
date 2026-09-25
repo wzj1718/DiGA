@@ -1,0 +1,6 @@
+include: minerva_math_algebra.yaml
+task: minerva_math500
+dataset_name: default
+dataset_path: !env [DIFA_DATA_ROOT, ./data, "MATH-500"]
+training_split: null
+test_split: test

@@ -1,0 +1,3 @@
+include: aqua-rat.yaml
+task: agieval_gaokao_chemistry
+dataset_path: !env [DIFA_DATA_ROOT, ./data, "agieval/agieval-gaokao-chemistry"]  # hails/agieval-gaokao-chemistry

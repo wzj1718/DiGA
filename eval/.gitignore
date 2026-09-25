@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.cache/
+.hf_datasets_cache/
+*.egg-info/
+.env
+.env.*
+!.env.example
